@@ -10,7 +10,7 @@ services:
     command: --default-authentication-plugin=mysql_native_password
     restart: always
     volumes:
-      - ./conf.d/:/etc/mysql/conf.d/
+      - ./conf.d:/etc/mysql/conf.d
       - ./mysql:/var/lib/mysql/
     environment:
       MYSQL_ROOT_PASSWORD: toor
