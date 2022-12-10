@@ -1,5 +1,2 @@
 # MySQL Backups
-backups/*
-
-# MySQL Mount Folder
-mysql/
+backups/*/
